@@ -15,7 +15,7 @@ function ChatbotIntegration() {
       <div className="integration-main-container">
         <div className="integration-section">
           <a
-            href={window.location.origin + "/BeyondChatsAssignment/client-website-test"}
+            href={"https://shubham00712.github.io/BeyondChatsAssignment/#/client-website-test"}
             target="_blank"
             rel="noreferrer"
           >
@@ -32,7 +32,7 @@ function ChatbotIntegration() {
         </div>
         <div className="integration-section">
           <a
-            href={window.location.origin + "/BeyondChatsAssignment/chatbot-integration-result"}
+            href={"https://shubham00712.github.io/BeyondChatsAssignment/#/chatbot-integration-result"}
             target="_blank"
             rel="noreferrer"
           >

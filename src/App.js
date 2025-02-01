@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<UserRegistration />} />
-        <Route path="/setup" element={<Setup />} />
-        <Route path="/chatbot-integration" element={<ChatbotIntegration />}/>
-        <Route path="/chatbot-integration-result" element={<ChatbotIntegrationResult />}/>
-        <Route path="/client-website-test" element={<ClientWebsiteTest />}/>
+        <Route path="setup" element={<Setup />} />
+        <Route path="chatbot-integration" element={<ChatbotIntegration />}/>
+        <Route path="chatbot-integration-result" element={<ChatbotIntegrationResult />}/>
+        <Route path="client-website-test" element={<ClientWebsiteTest />}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
     </div>

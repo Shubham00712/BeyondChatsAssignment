@@ -19,6 +19,7 @@
     border-radius: 10px;
     background-color: rgb(6, 6, 95);
     color: yellow;
+    cursor: pointer;
 }
 
 .instructions-container{

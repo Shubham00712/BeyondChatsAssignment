@@ -164,6 +164,7 @@ function Setup() {
                       <td>{webpage.status}</td>
                       <td>
                         <span
+                          style={{cursor:'pointer'}}
                           onClick={() => {
                             setChunkData(webpage.chunks);
                             setShowChunkData(true);
@@ -191,7 +192,7 @@ function Setup() {
                     setShowChunkData(false);
                   }}
                 >
-                  <span id="close-btn">Close</span>
+                  <span id="close-btn" style={{cursor:'pointer'}}>Close</span>
                 </div>
                 <hr style={{ margin: "2px" }}></hr>
                 {chunkData.length === 0 ? (

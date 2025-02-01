@@ -42,7 +42,7 @@ textarea{
 
 #auto-fetch-btn{
     position: absolute;
-    /* float: right; */
+    cursor: pointer;
     right: 2px;
     bottom: 0;
     border: 1px solid gray;
@@ -59,6 +59,7 @@ textarea{
     background-color: rgb(0, 89, 255);
     color: white;
     letter-spacing: 0.3px;
+    cursor: pointer;
 }
 
 .scrape-table{
@@ -141,4 +142,5 @@ tbody tr:nth-child(odd){
     font-size: 16px;
     border-radius: 5px;
     margin-bottom: 20px;
+    cursor:pointer;
 }
