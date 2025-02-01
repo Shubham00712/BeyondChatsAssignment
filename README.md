@@ -1,3 +1,20 @@
+# BeyondChats Frontend Assignment
+BeyondChats a chatbot company application(created using Reactjs)
+
+**Live site link:** https://shubham00712.github.io/BeyondChatsAssignment/
+
+**Features:**
+
+1. **User Registration:** Users can register by providing all necessary details, followed by a verification message confirming successful registration.
+2. **Organization Setup:** Clients can set up the chatbot for their organization after completing all required fields. The application displays progress during web scraping, showing the status of webpages found, data extracted, and the progress of specific webpages.
+3. **Chatbot Testing and Integration:** Clients are provided with a utility to test the chatbot on their site, preview it in action, and receive clear instructions on how to integrate it into their website.
+
+### You can run application on local system simply by using below steps:
+1. Download the project and go to project folder in terminal.
+2. use `npm install` command to install all the dependencies (Note: make sure node is installed in your system)
+3. After this, run `npm start` to run the application on local system. (Application will run on https://localhost:3000 port, make sure no other application is using that).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
