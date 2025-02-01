@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BeyondChatsAssignment/static/css/main.2ff87121.css",
-    "main.js": "/BeyondChatsAssignment/static/js/main.f89e6388.js",
+    "main.js": "/BeyondChatsAssignment/static/js/main.3aaeda6a.js",
     "static/media/cancel.png": "/BeyondChatsAssignment/static/media/cancel.1583723861a66fb05605.png",
     "static/media/checked.png": "/BeyondChatsAssignment/static/media/checked.6f298cca57a5a8b36055.png",
     "index.html": "/BeyondChatsAssignment/index.html",
     "main.2ff87121.css.map": "/BeyondChatsAssignment/static/css/main.2ff87121.css.map",
-    "main.f89e6388.js.map": "/BeyondChatsAssignment/static/js/main.f89e6388.js.map"
+    "main.3aaeda6a.js.map": "/BeyondChatsAssignment/static/js/main.3aaeda6a.js.map"
   },
   "entrypoints": [
     "static/css/main.2ff87121.css",
-    "static/js/main.f89e6388.js"
+    "static/js/main.3aaeda6a.js"
   ]
 }
