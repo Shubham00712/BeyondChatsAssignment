@@ -1,0 +1,75 @@
+.integration-main-container{
+    margin: auto;
+    width: 80%;
+    margin-top: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.integration-section{
+    margin-bottom: 15px;
+    justify-self: center;
+}
+
+.integration-main-btn{
+    padding: 15px;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: rgb(6, 6, 95);
+    color: yellow;
+}
+
+.instructions-container{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 2;
+    width: 70vw;
+}
+
+.instructions-container h4{
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+}
+.instructions-container p{
+    text-wrap: nowrap;
+    padding: 5px;
+    overflow-x: scroll;
+}
+
+.instructions-container input,#email-btn{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.overlay-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:540px) {
+    .integration-main-container{
+        width: 90%;
+    }
+    .instructions-container{
+        width: 85vw;
+    }
+}

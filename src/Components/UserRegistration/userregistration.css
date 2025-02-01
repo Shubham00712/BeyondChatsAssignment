@@ -1,0 +1,150 @@
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 70vw;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+.company-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.company-logo h1,p{
+    margin: 2px;
+}
+.company-logo h1{
+    font-size: 36px;
+    color: rgb(33, 111, 255);
+    text-shadow: 1px 1px 2px black;
+}
+.company-logo p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-registration-main, .email-verification-main{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 45%;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    align-content: space-evenly;
+}
+
+h3{
+    text-align: center;
+    font-size: 2vw;
+    margin: 0;
+}
+
+.user-registration-form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 90%;
+    padding: 10px 0;
+}
+
+.user-registration-form label, .email-verification-main p{
+    margin: 3px 0;
+    font-size: 1.5vw;
+}
+
+.user-registration-form input,.email-verification-main input{
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5vw;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-google-btn, .register-btn, .verify-btn{
+    width: 90%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.cont-google-btn{
+    background-color: rgb(255, 48, 33);
+    color: white;
+}
+
+.register-btn,.verify-btn{
+    background-color: green;
+    color: white;
+}
+
+.register-btn:disabled{
+    background-color: rgba(0, 128, 0, 0.801);
+    cursor: none;
+}
+
+.email-verification-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-verification-main input{
+    width: 90%;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width:720px) {
+    .company-logo h1{
+        font-size: 32px;
+    }
+    .company-logo p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:675px) {
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-registration-main,.email-verification-main{
+        width: 70%;
+        margin-top: 10px;
+    }
+    h3{
+        font-size: 2.8vw;
+    }
+    .user-registration-form label,.email-verification-main p{
+        font-size: 2.2vw;
+    }
+    .user-registration-form input{
+        font-size: 2.2vw;
+    }
+    .cont-google-btn, .register-btn,.verify-btn{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .main-container{
+        width: 90vw;
+    }
+}

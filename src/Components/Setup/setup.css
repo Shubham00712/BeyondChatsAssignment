@@ -1,0 +1,144 @@
+.setup-container{
+    width: 80vw;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.setup-container h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.setup-form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.setup-form label{
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.setup-form input{
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    resize: none;
+    height: 10vh;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#auto-fetch-btn{
+    position: absolute;
+    /* float: right; */
+    right: 2px;
+    bottom: 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#setup-btn{
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    letter-spacing: 0.3px;
+}
+
+.scrape-table{
+    margin-top: 10px;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+table,th,tr,td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+    /* box-sizing: border-box; */
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+
+th{
+    font-size: 16px;
+}
+td{
+    font-size: 14px;
+}
+thead{
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: lightgrey;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(190, 221, 231);
+}
+
+.overlay-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.chunk-container{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.chunk-container ul{
+    padding: 5px 10px;
+    list-style-position: inside;
+    margin: 5px 0;
+}
+
+#close-btn{
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+#continue-btn{
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    width: 40%;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
